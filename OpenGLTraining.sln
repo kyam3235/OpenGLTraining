@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenGLTraining", "OpenGLTraining\OpenGLTraining.vcxproj", "{3C87335C-E57F-46D1-AF25-B31BC38B8109}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TheXWindowSystemSample", "TheXWindowSystemSample\TheXWindowSystemSample.vcxproj", "{BDF2F49D-9C67-4F61-A9A7-1D636D22AB19}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DrawingCurveSample", "DrawingCurveSample\DrawingCurveSample.vcxproj", "{EFEB83A5-9223-4D55-9047-33D27CCF4250}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C87335C-E57F-46D1-AF25-B31BC38B8109}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3C87335C-E57F-46D1-AF25-B31BC38B8109}.Debug|Win32.Build.0 = Debug|Win32
+		{3C87335C-E57F-46D1-AF25-B31BC38B8109}.Release|Win32.ActiveCfg = Release|Win32
+		{3C87335C-E57F-46D1-AF25-B31BC38B8109}.Release|Win32.Build.0 = Release|Win32
+		{BDF2F49D-9C67-4F61-A9A7-1D636D22AB19}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BDF2F49D-9C67-4F61-A9A7-1D636D22AB19}.Debug|Win32.Build.0 = Debug|Win32
+		{BDF2F49D-9C67-4F61-A9A7-1D636D22AB19}.Release|Win32.ActiveCfg = Release|Win32
+		{BDF2F49D-9C67-4F61-A9A7-1D636D22AB19}.Release|Win32.Build.0 = Release|Win32
+		{EFEB83A5-9223-4D55-9047-33D27CCF4250}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EFEB83A5-9223-4D55-9047-33D27CCF4250}.Debug|Win32.Build.0 = Debug|Win32
+		{EFEB83A5-9223-4D55-9047-33D27CCF4250}.Release|Win32.ActiveCfg = Release|Win32
+		{EFEB83A5-9223-4D55-9047-33D27CCF4250}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

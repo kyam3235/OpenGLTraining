@@ -1,0 +1,37 @@
+﻿2016/02/04 11:29:01 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\k-yamaguchi\Documents\Visual Studio 2013\Projects\OpenGLTraining\OpenGLTraining\OpenGLTraining.vcxproj" (Build ターゲット)。
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\k-yamaguchi\Documents\Visual Studio 2013\Projects\OpenGLTraining\Debug\OpenGLTraining.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\k-yamaguchi\Documents\Visual Studio 2013\Projects\OpenGLTraining\Debug\OpenGLTraining.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\k-yamaguchi\Documents\Visual Studio 2013\Projects\OpenGLTraining\Debug\OpenGLTraining.lib" /MACHINE:X86 Debug\OpenGLTraining.res
+         Debug\OpenGLTraining.obj
+         Debug\stdafx.obj
+     1>OpenGLTraining.obj : error LNK2019: 未解決の外部シンボル __imp__wglCreateContext@4 が関数 "long __stdcall WndProc(struct HWND__ *,unsigned int,unsigned int,long)" (?WndProc@@YGJPAUHWND__@@IIJ@Z) で参照されました。
+     1>OpenGLTraining.obj : error LNK2019: 未解決の外部シンボル __imp__wglDeleteContext@4 が関数 "long __stdcall WndProc(struct HWND__ *,unsigned int,unsigned int,long)" (?WndProc@@YGJPAUHWND__@@IIJ@Z) で参照されました。
+     1>OpenGLTraining.obj : error LNK2019: 未解決の外部シンボル __imp__glCallList@4 が関数 "void __cdecl DrawScene(void)" (?DrawScene@@YAXXZ) で参照されました。
+     1>OpenGLTraining.obj : error LNK2019: 未解決の外部シンボル __imp__glClear@4 が関数 "void __cdecl DrawScene(void)" (?DrawScene@@YAXXZ) で参照されました。
+     1>OpenGLTraining.obj : error LNK2019: 未解決の外部シンボル __imp__glClearDepth@8 が関数 "void __cdecl InitializeGL(int,int)" (?InitializeGL@@YAXHH@Z) で参照されました。
+     1>OpenGLTraining.obj : error LNK2019: 未解決の外部シンボル __imp__glClearIndex@4 が関数 "void __cdecl InitializeGL(int,int)" (?InitializeGL@@YAXHH@Z) で参照されました。
+     1>OpenGLTraining.obj : error LNK2019: 未解決の外部シンボル __imp__glEnable@4 が関数 "void __cdecl InitializeGL(int,int)" (?InitializeGL@@YAXHH@Z) で参照されました。
+     1>OpenGLTraining.obj : error LNK2019: 未解決の外部シンボル __imp__glEndList@0 が関数 "void __cdecl CreateObjects(void)" (?CreateObjects@@YAXXZ) で参照されました。
+     1>OpenGLTraining.obj : error LNK2019: 未解決の外部シンボル __imp__glIndexi@4 が関数 "void __cdecl DrawScene(void)" (?DrawScene@@YAXXZ) で参照されました。
+     1>OpenGLTraining.obj : error LNK2019: 未解決の外部シンボル __imp__glLoadIdentity@0 が関数 "void __cdecl Resize(int,int)" (?Resize@@YAXHH@Z) で参照されました。
+     1>OpenGLTraining.obj : error LNK2019: 未解決の外部シンボル __imp__glMatrixMode@4 が関数 "void __cdecl InitializeGL(int,int)" (?InitializeGL@@YAXHH@Z) で参照されました。
+     1>OpenGLTraining.obj : error LNK2019: 未解決の外部シンボル __imp__glNewList@8 が関数 "void __cdecl CreateObjects(void)" (?CreateObjects@@YAXXZ) で参照されました。
+     1>OpenGLTraining.obj : error LNK2019: 未解決の外部シンボル __imp__glPopMatrix@0 が関数 "void __cdecl CreateObjects(void)" (?CreateObjects@@YAXXZ) で参照されました。
+     1>OpenGLTraining.obj : error LNK2019: 未解決の外部シンボル __imp__glPushMatrix@0 が関数 "void __cdecl CreateObjects(void)" (?CreateObjects@@YAXXZ) で参照されました。
+     1>OpenGLTraining.obj : error LNK2019: 未解決の外部シンボル __imp__glRotated@32 が関数 "void __cdecl PolarView(double,double,double,double)" (?PolarView@@YAXNNNN@Z) で参照されました。
+     1>OpenGLTraining.obj : error LNK2019: 未解決の外部シンボル __imp__glRotatef@16 が関数 "void __cdecl CreateObjects(void)" (?CreateObjects@@YAXXZ) で参照されました。
+     1>OpenGLTraining.obj : error LNK2019: 未解決の外部シンボル __imp__glTranslated@24 が関数 "void __cdecl PolarView(double,double,double,double)" (?PolarView@@YAXNNNN@Z) で参照されました。
+     1>OpenGLTraining.obj : error LNK2019: 未解決の外部シンボル __imp__glTranslatef@12 が関数 "void __cdecl CreateObjects(void)" (?CreateObjects@@YAXXZ) で参照されました。
+     1>OpenGLTraining.obj : error LNK2019: 未解決の外部シンボル __imp__glViewport@16 が関数 "void __cdecl Resize(int,int)" (?Resize@@YAXHH@Z) で参照されました。
+     1>OpenGLTraining.obj : error LNK2019: 未解決の外部シンボル _gluPerspective@32 が関数 "void __cdecl InitializeGL(int,int)" (?InitializeGL@@YAXHH@Z) で参照されました。
+     1>OpenGLTraining.obj : error LNK2019: 未解決の外部シンボル _gluNewQuadric@0 が関数 "void __cdecl CreateObjects(void)" (?CreateObjects@@YAXXZ) で参照されました。
+     1>OpenGLTraining.obj : error LNK2019: 未解決の外部シンボル _gluQuadricNormals@8 が関数 "void __cdecl CreateObjects(void)" (?CreateObjects@@YAXXZ) で参照されました。
+     1>OpenGLTraining.obj : error LNK2019: 未解決の外部シンボル _gluQuadricDrawStyle@8 が関数 "void __cdecl CreateObjects(void)" (?CreateObjects@@YAXXZ) で参照されました。
+     1>OpenGLTraining.obj : error LNK2019: 未解決の外部シンボル _gluCylinder@36 が関数 "void __cdecl CreateObjects(void)" (?CreateObjects@@YAXXZ) で参照されました。
+     1>OpenGLTraining.obj : error LNK2019: 未解決の外部シンボル _gluSphere@20 が関数 "void __cdecl CreateObjects(void)" (?CreateObjects@@YAXXZ) で参照されました。
+     1>C:\Users\k-yamaguchi\Documents\Visual Studio 2013\Projects\OpenGLTraining\Debug\OpenGLTraining.exe : fatal error LNK1120: 25 件の未解決の外部参照
+     1>プロジェクト "C:\Users\k-yamaguchi\Documents\Visual Studio 2013\Projects\OpenGLTraining\OpenGLTraining\OpenGLTraining.vcxproj" (Build ターゲット) のビルドが終了しました -- 失敗。
+
+ビルドに失敗しました。
+
+経過時間 00:00:00.58
